@@ -6,4 +6,8 @@ describe("Stack Class", () => {
     // expect(stack.peek()).toEqual(1);
   });
   // add more tests here...
+  it('#pop should remove last item from array', () => {
+    const stack = new Stack(['duck', 'fox']);
+    expect(stack.pop()).toEqual(['duck']);
+  });
 });
