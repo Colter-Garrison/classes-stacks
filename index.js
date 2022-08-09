@@ -22,8 +22,8 @@ class Stack {
 class Queue {}
 
 const newStack = new Stack(['duck', 'llama'])
-// newStack.push('fox')
-newStack.pop()
-console.log(newStack)
+newStack.push('fox')
+// newStack.pop()
+console.log('newStack:', newStack)
 
 module.exports = { Stack, Queue }
